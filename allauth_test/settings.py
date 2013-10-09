@@ -169,7 +169,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 #allauth
-AUTH_USER_MODEL = 'taggle.TaggleUser'
+AUTH_USER_MODEL = 'allauth_app.TaggleUser'
 
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_USERNAME_REQUIRED = False
